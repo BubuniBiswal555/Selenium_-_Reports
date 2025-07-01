@@ -18,7 +18,7 @@ public class RightClickOnElement {
 		  WebElement rightClickEle = driver.findElement(By.xpath("//span[text()='right click me']"));
 		  Actions act=new Actions(driver);
 		  act.contextClick(rightClickEle).perform();
-		  driver.findElement(By.xpath("//span[text()='copy']"));
+		  driver.findElement(By.xpath("//span[text()='copy']")).click();
 	}
 
 }
