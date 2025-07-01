@@ -8,7 +8,7 @@ public class lunchBrowser {
 	@Test
 	public void demo() {
 		WebDriver driver =  new ChromeDriver();
-		driver.getzz("https://www.flipkart.com/");
+		driver.get("https://www.flipkart.com/");
 	}
 
 }
